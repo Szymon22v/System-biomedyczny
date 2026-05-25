@@ -24,24 +24,25 @@ requireLogin();
 <main>
 <div class="container">
     <h2>Panel główny</h2>
+    <a href="dokumentacja.pdf" class="doc-link" target="_blank"> Dokumentacja projektu (PDF)</a>
     <div class="menu-grid">
         <a href="measurements.php" class="menu-card">
-            <span>📋</span>
+            <span></span>
             <strong>Pomiary</strong>
             <small>Dodaj i przeglądaj wyniki</small>
         </a>
         <a href="parameters.php" class="menu-card">
-            <span>📂</span>
+            <span></span>
             <strong>Katalog badań</strong>
             <small>Zarządzaj parametrami</small>
         </a>
         <a href="units.php" class="menu-card">
-            <span>📐</span>
+            <span></span>
             <strong>Jednostki</strong>
             <small>Jednostki miar</small>
         </a>
         <a href="statistics.php" class="menu-card">
-            <span>📊</span>
+            <span></span>
             <strong>Statystyki</strong>
             <small>Analiza wyników</small>
         </a>
